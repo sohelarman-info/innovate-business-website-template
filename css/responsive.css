@@ -1,0 +1,974 @@
+/* Extra Small (col) devices (landscape phones, 320px and up) */
+@media (min-width: 320px) and (max-width: 575px) {
+  /* nav area css start */
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  #navbarSupportedContent {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: right;
+  }
+
+  .contact-button {
+    padding: 5px 22px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 20px;
+  }
+
+  /* nav area css end */
+
+  /* banner section css start */
+
+  .banner-header {
+    margin-top: 50px;
+  }
+
+  .banner-header h2 {
+    line-height: 200%;
+    font-size: 24px;
+  }
+
+  .banner-header p {
+    border-left: 3px solid #ffc556;
+    padding-left: 10px;
+    padding-right: 0;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .input-email form input {
+    font-size: 13px;
+    padding: 10px;
+    padding-right: 0;
+    border-radius: 10px;
+    border: none;
+    border-right: none;
+    padding-right: 10px;
+  }
+
+  .input-email form input::placeholder {
+    font-size: 13px;
+  }
+
+  .input-email form button {
+    position: static;
+    font-size: 14px;
+    width: 150px;
+    padding: 10px;
+    margin-top: 58px;
+    border-radius: 10px;
+  }
+
+  /* banner section css end */
+
+  /* brand section css start */
+
+  #brand {
+    padding: 0;
+  }
+
+  /* brand section css end */
+
+  /* service section css start */
+
+  #service {
+    padding: 60px 0;
+  }
+
+  .service-heading h2 {
+    font-size: 24px;
+    padding-right: 0;
+  }
+
+  .service-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .service-item {
+    padding: 15px;
+    margin-top: 20px;
+  }
+
+  .service-content p {
+    border-left: 3px solid #ffc556;
+    padding-left: 10px;
+    padding-right: 0;
+    font-size: 16px;
+    text-align: left;
+    line-height: 150%;
+  }
+
+  .service-header h2 {
+    font-size: 22px;
+    line-height: 100%;
+    margin-left: 0;
+    margin-top: 18px;
+    padding-left: 0;
+  }
+
+  .service-item-content p {
+    font-size: 15px;
+    line-height: 150%;
+  }
+
+  /* service section css end */
+
+  /* task section css start */
+
+  #task {
+    padding: 0;
+  }
+
+  .task-bg-card {
+    display: none;
+  }
+
+  .task-content {
+    margin-top: 25px;
+    padding-left: 5px;
+    text-align: center;
+  }
+
+  .task-content h2 {
+    font-size: 24px;
+  }
+
+  .task-content p {
+    font-size: 15px;
+    line-height: 150%;
+    padding-right: 0;
+    margin-top: 24px;
+  }
+
+  .task-content a {
+    font-size: 16px;
+    padding: 6px;
+    margin-top: 24px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 19px;
+  }
+
+  .tab-active a {
+    border-radius: 10px;
+  }
+
+  .distribution-tabs a {
+    padding: 16px;
+    line-height: 100%;
+    font-size: 16px;
+    margin: 15px;
+  }
+
+  .distribution-tabs a:hover {
+    border-radius: 10px;
+  }
+
+  .task-card {
+    display: none;
+  }
+
+  .dis-pic {
+    margin-top: 50px;
+  }
+
+  .dis-content {
+    margin-top: 50px;
+    padding-left: 0;
+  }
+
+  .dis-content h2 {
+    font-size: 24px;
+  }
+
+  .dis-content p {
+    font-size: 16px;
+    padding-right: 0;
+    margin-top: 20px;
+  }
+
+  .dis-content a {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 10px;
+  }
+
+  /* task section css end */
+
+  /* pricing section css start */
+
+  #pricing {
+    padding: 0;
+  }
+
+  .pricing-header h2 {
+    font-size: 24px;
+  }
+
+  .pricing-switch {
+    margin-top: 20px;
+  }
+
+  .switch-month p {
+    font-size: 20px;
+    margin-top: 7px;
+  }
+
+  .switch-year p {
+    font-size: 20px;
+    margin-top: 7px;
+  }
+
+  .form-switch .form-check-input {
+    width: 70px;
+    height: 30px;
+  }
+
+  .pricing-item-wrapper {
+    padding: 50px 0;
+  }
+
+  .pricing-item:hover {
+    margin-top: 10px;
+  }
+
+  .pricing-item-header h3 {
+    font-size: 28px;
+  }
+
+  .pricing-item {
+    padding: 15px;
+    margin-top: 10px;
+  }
+
+  .price-item-content p {
+    font-size: 16px;
+  }
+
+  .price-item-content p i {
+    display: none;
+  }
+
+  .price-item-value p {
+    font-size: 16px;
+  }
+
+  .pricing-button a {
+    font-size: 16px;
+    display: block;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .pricing-button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .play-button img {
+    width: 100%;
+  }
+
+  .play-button picture {
+    width: 50%;
+  }
+
+  .play-button p {
+    font-size: 16px;
+    line-height: 115%;
+  }
+
+  .play-score {
+    margin-top: 20px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .play-score p {
+    padding-right: 0;
+  }
+
+  /* pricing section css end */
+
+  /* team section css start */
+
+  #team {
+    padding: 50px 0;
+  }
+
+  .team-header h2 {
+    font-size: 24px;
+  }
+
+  .team-wrapper {
+    margin-top: 30px;
+  }
+
+  .team-content p {
+    font-size: 16px;
+    padding-right: 0;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .team-content {
+    padding: 10px;
+  }
+
+  .team-content h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .team-img img {
+    border-radius: 16px;
+  }
+
+  .team-social {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .team-pagination {
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page-icon a {
+    width: 50px;
+    height: 50px;
+  }
+
+  .team-icon:first-child a {
+    margin-left: 12px;
+  }
+
+  .page-icon:last-child a {
+    margin-right: 0;
+  }
+
+  .team-group {
+    display: none;
+  }
+
+  /* team section css end */
+
+  /* subscription section css start */
+
+  #subscription {
+    padding: 50px 0;
+  }
+
+  .subscription-header h2 {
+    font-size: 24px;
+    padding: 0;
+  }
+
+  .subscription-header p {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .subscription-input input[type="text"] {
+    padding: 16px;
+    width: 100%;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+
+  .subscription-input input[type="text"]::placeholder {
+    font-size: 14px;
+  }
+
+  .subscription-input input[type="submit"] {
+    font-size: 16px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+
+  .footer-description p {
+    font-size: 16px;
+    line-height: 160%;
+    margin-top: 30px;
+    padding-right: 0;
+  }
+
+  .footer-category p a {
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+  .footer-category h4 {
+    margin-top: 25px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .footer-copyright p {
+    font-size: 16px;
+  }
+
+  .copyright-category p a {
+    font-size: 16px;
+  }
+
+  /* subscription section css end */
+}
+
+/* Small (col-sm) devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* nav area css start */
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  #navbarSupportedContent {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: right;
+  }
+
+  .contact-button {
+    padding: 5px 22px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 20px;
+  }
+
+  /* nav area css end */
+
+  /* banner section css start */
+
+  .banner-header {
+    margin-top: 50px;
+  }
+
+  .banner-header h2 {
+    line-height: 200%;
+    font-size: 24px;
+  }
+
+  .banner-header p {
+    border-left: 3px solid #ffc556;
+    padding-left: 10px;
+    padding-right: 0;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .input-email form input {
+    font-size: 13px;
+    padding: 10px;
+    padding-right: 0;
+    border-radius: 10px;
+    border: none;
+    border-right: none;
+    padding-right: 10px;
+  }
+
+  .input-email form input::placeholder {
+    font-size: 13px;
+  }
+
+  .input-email form button {
+    position: static;
+    font-size: 14px;
+    width: 150px;
+    padding: 10px;
+    margin-top: 58px;
+    border-radius: 10px;
+  }
+
+  /* banner section css end */
+
+  /* brand section css start */
+
+  #brand {
+    padding: 0;
+  }
+
+  /* brand section css end */
+
+  /* service section css start */
+
+  #service {
+    padding: 60px 0;
+  }
+
+  .service-heading h2 {
+    font-size: 24px;
+    padding-right: 0;
+  }
+
+  .service-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .service-item {
+    padding: 15px;
+    margin-top: 20px;
+  }
+
+  .service-content p {
+    border-left: 3px solid #ffc556;
+    padding-left: 10px;
+    padding-right: 0;
+    font-size: 16px;
+    text-align: left;
+    line-height: 150%;
+  }
+
+  .service-header h2 {
+    font-size: 22px;
+    line-height: 100%;
+    margin-left: 0;
+    margin-top: 18px;
+    padding-left: 0;
+  }
+
+  .service-item-content p {
+    font-size: 15px;
+    line-height: 150%;
+  }
+
+  /* service section css end */
+
+  /* task section css start */
+
+  #task {
+    padding: 0;
+  }
+
+  .task-bg-card {
+    display: none;
+  }
+
+  .task-content {
+    margin-top: 25px;
+    padding-left: 5px;
+    text-align: center;
+  }
+
+  .task-content h2 {
+    font-size: 24px;
+  }
+
+  .task-content p {
+    font-size: 15px;
+    line-height: 150%;
+    padding-right: 0;
+    margin-top: 24px;
+  }
+
+  .task-content a {
+    font-size: 16px;
+    padding: 6px;
+    margin-top: 24px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 19px;
+  }
+
+  .tab-active a {
+    border-radius: 10px;
+  }
+
+  .distribution-tabs a {
+    padding: 16px;
+    line-height: 100%;
+    font-size: 16px;
+    margin: 15px;
+  }
+
+  .distribution-tabs a:hover {
+    border-radius: 10px;
+  }
+
+  .task-card {
+    display: none;
+  }
+
+  .dis-pic {
+    margin-top: 50px;
+  }
+
+  .dis-content {
+    margin-top: 50px;
+    padding-left: 0;
+  }
+
+  .dis-content h2 {
+    font-size: 24px;
+  }
+
+  .dis-content p {
+    font-size: 16px;
+    padding-right: 0;
+    margin-top: 20px;
+  }
+
+  .dis-content a {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 10px;
+  }
+
+  /* task section css end */
+
+  /* pricing section css start */
+
+  #pricing {
+    padding: 0;
+  }
+
+  .pricing-header h2 {
+    font-size: 24px;
+  }
+
+  .pricing-switch {
+    margin-top: 20px;
+  }
+
+  .switch-month p {
+    font-size: 20px;
+    margin-top: 7px;
+  }
+
+  .switch-year p {
+    font-size: 20px;
+    margin-top: 7px;
+  }
+
+  .form-switch .form-check-input {
+    width: 70px;
+    height: 30px;
+  }
+
+  .pricing-item-wrapper {
+    padding: 50px 0;
+  }
+
+  .pricing-item:hover {
+    margin-top: 10px;
+  }
+
+  .pricing-item-header h3 {
+    font-size: 28px;
+  }
+
+  .pricing-item {
+    padding: 15px;
+    margin-top: 10px;
+  }
+
+  .price-item-content p {
+    font-size: 16px;
+  }
+
+  .price-item-content p i {
+    display: inline-block;
+  }
+
+  .price-item-value p {
+    font-size: 16px;
+  }
+
+  .pricing-button a {
+    font-size: 16px;
+    display: block;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .pricing-button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .play-button img {
+    width: 100%;
+  }
+
+  .play-button picture {
+    width: 50%;
+  }
+
+  .play-button p {
+    font-size: 16px;
+    line-height: 115%;
+  }
+
+  .play-score {
+    margin-top: 20px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .play-score p {
+    padding-right: 0;
+  }
+
+  /* pricing section css end */
+
+  /* team section css start */
+
+  #team {
+    padding: 50px 0;
+  }
+
+  .team-header h2 {
+    font-size: 24px;
+  }
+
+  .team-wrapper {
+    margin-top: 30px;
+  }
+
+  .team-content p {
+    font-size: 16px;
+    padding-right: 0;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .team-content {
+    padding: 10px;
+  }
+
+  .team-content h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .team-img img {
+    border-radius: 16px;
+  }
+
+  .team-social {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .team-pagination {
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page-icon a {
+    width: 50px;
+    height: 50px;
+  }
+
+  .team-icon:first-child a {
+    margin-left: 12px;
+  }
+
+  .page-icon:last-child a {
+    margin-right: 0;
+  }
+
+  .team-group {
+    display: none;
+  }
+
+  /* team section css end */
+
+  /* subscription section css start */
+
+  #subscription {
+    padding: 50px 0;
+  }
+
+  .subscription-header h2 {
+    font-size: 24px;
+    padding: 0;
+  }
+
+  .subscription-header p {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .subscription-input input[type="text"] {
+    padding: 16px;
+    width: 100%;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+
+  .subscription-input input[type="text"]::placeholder {
+    font-size: 14px;
+  }
+
+  .subscription-input input[type="submit"] {
+    font-size: 16px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+
+  .footer-description p {
+    font-size: 16px;
+    line-height: 160%;
+    margin-top: 30px;
+    padding-right: 0;
+  }
+
+  .footer-category p a {
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+  .footer-category h4 {
+    margin-top: 25px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .footer-copyright p {
+    font-size: 16px;
+  }
+
+  .copyright-category p a {
+    font-size: 16px;
+  }
+
+  /* subscription section css end */
+}
+
+/* Medium (col-md) devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* nav area css start */
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  #navbarSupportedContent {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: right;
+  }
+
+  .contact-button {
+    padding: 5px 22px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 20px;
+  }
+
+  /* nav area css end */
+
+  /* banner area css start */
+
+  .banner-header p {
+    text-align: start;
+  }
+
+  .banner-header h2 {
+    text-align: left;
+  }
+
+  .service-item-header {
+    align-items: center;
+    justify-content: center;
+  }
+
+  #service {
+    padding: 50px 0;
+  }
+
+  #task {
+    padding: 100px 0;
+  }
+
+  .task-bg-card {
+    top: 32%;
+  }
+
+  .task-card-three {
+    top: 50px;
+    right: 137px;
+  }
+
+  .task-card-one {
+    top: 45%;
+    right: 104px;
+  }
+
+  .task-content {
+    margin-top: 100px;
+    padding-left: 0;
+  }
+
+  /* banner area css end */
+
+  .play-button {
+    justify-content: center;
+  }
+
+  .team-content p {
+    padding-right: 0;
+  }
+
+  .team-content {
+    padding: 10px;
+  }
+
+  .team-pagination {
+    margin-top: 19px;
+  }
+
+  .team-group {
+    display: none;
+  }
+
+  #subscription {
+    padding: 50px 0;
+  }
+
+  .footer-description p {
+    padding-right: 0;
+  }
+}
+
+/* Large (col-lg) devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .switch {
+    padding-left: 0;
+  }
+
+  .subscription-input input[type="submit"] {
+    font-size: 18px;
+    width: 24%;
+  }
+}
+
+/* X-Large (col-xl) devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  ...;
+}
+
+/* XX-Large (col-xxl) devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  ...;
+}
